@@ -1,0 +1,5 @@
+Users: id, username, email, phone, address, past bookings, reviews, payment method.
+Salons: id, name, address, list of workers, ratings, and reviews.
+Workers: id, name, services offered, schedule, ratings, and reviews.
+Appointments: id, user_id, worker_id, date_time, status (booked, completed, canceled), payment status.
+Services: id, name, description, price, duration, offered_by (salon/worker).
