@@ -1,5 +1,5 @@
 import { User } from "../models/userModel.js"; // Adjust the import path based on your directory structure
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs"
 import jwt from "jsonwebtoken";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
