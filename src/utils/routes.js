@@ -5,6 +5,9 @@ import workerRoutes from "../routes/workerRoutes.js";
 import appointmentRoutes from "../routes/appointmentRoutes.js";
 
 const route = (app) => {
+  app.get("/", (req,res)=>{
+    res.send("Welcome to the API")
+  })
   app.use("/user", userRoute);
   app.use("/store", storeRoutes);
   app.use("/service", serviceRoute);
