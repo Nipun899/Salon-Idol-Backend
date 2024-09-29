@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "nodemon src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm rebuild bcrypt --build-from-source"
   },
   "author": "Nipun Jain",
   "license": "ISC",
@@ -22,6 +23,6 @@
     "multer": "^1.4.5-lts.1"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18.0.0"
   }
 }
